@@ -10,10 +10,12 @@ To build locally: -<br>
 
 To build using Docker Build Cloud and pull image locally: -<br>
 <br>
-```docker buildx build https://github.com/dbafromthecold/sqlserver2022.git`<br>
+```
+docker buildx build https://github.com/dbafromthecold/sqlserver2022.git`
 --builder cloud-dbafromthecold-default `
 --tag dbafromthecold/sqlserver2022:latest `
---load```
+--load
+```
 
 
 
