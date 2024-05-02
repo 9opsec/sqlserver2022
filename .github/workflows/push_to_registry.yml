@@ -21,7 +21,7 @@ jobs:
         with:
           version: "lab:latest"
           driver: cloud
-          endpoint: "dbafromthecold/default"
+          endpoint: "dbafromthecold/sqlserver2022"
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
