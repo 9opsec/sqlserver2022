@@ -1,5 +1,7 @@
 FROM ubuntu:22.04
 
+LABEL maintainer="dbafromthecold"
+
 # create mssql user
 RUN useradd -u 10001 mssql
 
