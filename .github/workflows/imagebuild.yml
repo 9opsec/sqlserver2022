@@ -21,11 +21,11 @@ jobs:
         with:
           version: "lab:latest"
           driver: cloud
-          endpoint: "dbafromthecold/default"
+          endpoint: "9opsec/default"
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
           context: .
-          tags: "dbafromthecold/sqlserver2022"
+          tags: "9opsec/sqlserver2022"
           outputs: ${{ github.event_name == 'pull_request' && 'type=cacheonly' || 'type=registry,push=true' }}
   
