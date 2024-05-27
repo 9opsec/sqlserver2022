@@ -26,3 +26,8 @@ docker buildx build https://github.com/dbafromthecold/sqlserver2022.git `
 --tag dbafromthecold/sqlserver2022:latest `
 --push
 ```
+
+https://www.sqlservercentral.com/blogs/automating-container-image-builds-with-docker-build-cloud-and-github-actions
+
+https://www.sqlservercentral.com/blogs/building-a-docker-image-with-docker-build-cloud
+
